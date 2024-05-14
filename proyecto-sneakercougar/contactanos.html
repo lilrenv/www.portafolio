@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakearCougar</title>
+    <link rel="stylesheet" href="css/barra-de-navegacion.css">
+    <link rel="stylesheet" href="css/contactanos.css">
+</head>
+<body>
+  
+    <header>
+        <div class="logo">
+        <img src="imagenes/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="catalogo.html">Nike</a></li>
+            <li><a href="Accesorios.html">Accesorios</a></li>          
+            <li><a href="contactanos.html">Soporte a Usuario</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </header>
+      
+      <nav class="mobile-menu">
+        <ul>
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="catalogo.html">Catalogo</a></li>
+          <li><a href="Accesorios.html">Accesorios</a></li>
+          <li><a href="contactanos.html">Soporte a Usuario</a></li>
+        </ul>
+      </nav>
+
+      <form id="problemReportForm" method="post" enctype="multipart/form-data">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="problem">Problema:</label>
+        <select id="problem" name="problem" required>
+          <option value="option1">Problema en el envio</option>
+          <option value="option2">Daño en las zapatillas</option>
+          <option value="option3">Reembolso</option>
+        <option value="option4">Equivocacion del envio</option>
+        </select>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+<script src="js/contactanos.js"></script>      
+<script src="js/barra-de-navegacion.js"></script>
+</body>
+</html>

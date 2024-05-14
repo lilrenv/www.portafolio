@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5px 0;
+    text-align: center;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.game h2 {
+    margin-top: 0;
+}
+
+.game p {
+    color: #666;
+}
+
+.platform {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.precios{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
